@@ -187,7 +187,15 @@ dist/
 
 ---
 
-## 7. Opcjonalne (zalecane)
+## 7. Uruchomienie wersji produkcyjnej
+
+```bash
+npm run preview
+```
+
+---
+
+## 8. Opcjonalne (zalecane)
 
 ### Rozszerzenia VSCode
 
