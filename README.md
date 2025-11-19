@@ -88,23 +88,23 @@ Projekt edukacyjny realizowany przez zespół **Za Dużo Niczego**. Chcemy inspi
 ---
 
 
-# 🚀 Project Installation Guide
+# 🚀 Instrukcja Instalacji Projektu
 
-This guide explains how to set up and run the project locally using Node.js, npm, and Git.
+Ten przewodnik wyjaśnia, jak uruchomić projekt lokalnie przy użyciu Node.js, npm i Git.
 
 ---
 
-## 1. Prerequisites
+## 1. Wymagania wstępne
 
-Before starting, make sure you have:
+Przed rozpoczęciem upewnij się, że masz zainstalowane:
 
-- **Node.js** `v22.x` (or compatible)
+- **Node.js** `v22.x` (lub kompatybilną wersję)
 
 ```bash
 node -v
 ```
 
-- **npm** (comes with Node.js)
+- **npm** (dołączony do Node.js)
 
 ```bash
 npm -v
@@ -118,7 +118,7 @@ git --version
 
 ---
 
-## 2. Clone Repository
+## 2. Sklonuj repozytorium
 
 ```bash
 git clone https://github.com/Kolbess/Za-Duzo-Niczego-Website.git
@@ -127,7 +127,7 @@ cd Za-Duzo-Niczego-Website
 
 ---
 
-## 3. Install Dependencies
+## 3. Zainstaluj zależności
 
 ```bash
 npm install
@@ -135,13 +135,13 @@ npm install
 
 ---
 
-## 4. Run Dev Server
+## 4. Uruchom serwer deweloperski
 
 ```bash
 npm run dev
 ```
 
-Open your browser and go to:
+Otwórz przeglądarkę i przejdź do:
 
 ```
 http://localhost:5173
@@ -149,23 +149,23 @@ http://localhost:5173
 
 ---
 
-## 5. Common Fixes
+## 5. Typowe problemy i ich rozwiązania
 
-### Missing `node_modules`
+### Brak folderu `node_modules`
 
 ```bash
 npm install
 ```
 
-### Tailwind/PostCSS Errors
+### Błędy Tailwind/PostCSS
 
-- Ensure Tailwind is installed:
+- Upewnij się, że Tailwind jest zainstalowany:
 
 ```bash
 npm install -D tailwindcss
 ```
 
-### TypeScript Errors
+### Błędy TypeScript
 
 ```bash
 npm install --save-dev typescript @types/react @types/react-dom
@@ -173,13 +173,13 @@ npm install --save-dev typescript @types/react @types/react-dom
 
 ---
 
-## 6. Build for Production
+## 6. Budowa wersji produkcyjnej
 
 ```bash
 npm run build
 ```
 
-Build output will be created in:
+Wynikowa wersja zostanie utworzona w:
 
 ```
 dist/
@@ -187,14 +187,14 @@ dist/
 
 ---
 
-## 7. Optional (Recommended)
+## 7. Opcjonalne (zalecane)
 
-### VSCode Extensions
+### Rozszerzenia VSCode
 
 - Tailwind CSS IntelliSense  
 - Prettier – Code Formatter  
 
-### Lint & Format Commands (if configured)
+### Polecenia lint & format (jeśli skonfigurowane)
 
 ```bash
 npm run lint
